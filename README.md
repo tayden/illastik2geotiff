@@ -32,7 +32,10 @@ The tool is primarily designed to be used from the command line.
 ### Command Line Interface (CLI)
 
 The entry point for the command line tool is `illastik2geotiff`.
+
+```
 illastik2geotiff <image_path> <seg_h5_path> <output_path>
+```
 
 - `<image_path>`: Path to the original GeoTIFF image that contains the desired georeferencing information.
 - `<seg_h5_path>`: Path to the HDF5 file exported by Illastik (e.g., prediction.h5). The tool expects the segmentation
@@ -71,6 +74,5 @@ This allows for integration into larger processing pipelines.
 - `h5py>=3.13.0`
 - `numpy>=2.2.5`
 - `rasterio>=1.4.3`
--
 
 These dependencies are automatically installed when using the `pip install` command from the GitHub repository.
