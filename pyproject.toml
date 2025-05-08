@@ -1,0 +1,13 @@
+[project]
+name = "illastik2geotiff"
+version = "0.1.0"
+description = "Convert Illastik h5 outputs to GeoTIFF format"
+requires-python = ">=3.10"
+dependencies = [
+    "h5py>=3.13.0",
+    "numpy>=2.2.5",
+    "rasterio>=1.4.3",
+]
+
+[project.scripts]
+illastik2geotiff = "illastik2geotiff.cli:main"
