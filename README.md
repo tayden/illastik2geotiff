@@ -65,7 +65,7 @@ georeference_h5_file(image_file, h5_file, output_file)
 
 This allows for integration into larger processing pipelines.
 
-## Requiroements
+## Requirements
 
 - Python 3.10+
 - `h5py>=3.13.0`
